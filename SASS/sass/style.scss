@@ -1,0 +1,64 @@
+@import'scss/variable';
+@import'scss/mixin';
+@import url(http://weloveiconfonts.com/api/?family=zocial);
+
+/* zocial */
+[class*="zocial-"]:before {
+  font-family: 'zocial', sans-serif;
+}
+body{
+	background-color: $beige;
+}
+.style-nav{
+	background-color: $beige;
+}
+.cont{
+	border: $br;
+}
+.bg-li{
+	width: $width;
+	height: $height;
+}
+.main{
+	width: $width-main;
+	height: $height-main;
+	position: $rel;
+}
+.pos{
+	position: $abs;
+}
+.img1{
+	@include flex;
+	font-family: 'Tangerine', serif;
+}
+.img2{
+	background-image: url(img/5.png);
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: $height-main;
+}
+a{
+	font-family: 'Maven Pro', sans-serif;
+}
+p{
+	font-family: 'Maven Pro', sans-serif;
+}
+h2{
+	font-family: 'Maven Pro', sans-serif;
+}
+.li-img{
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	
+}
+#widget-area {
+list-style-type: none;
+}
+.foot-child {
+	height: 50px;
+}
+
+/*shopingyumri.cf*/
+
+
