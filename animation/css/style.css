@@ -1,0 +1,51 @@
+div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    /* animation-delay: 2s; */                       /* ինչքա՞ն սպասե մինչև animation-ի սկսվելը          */
+    /* animation-iteration-count: 3; */              /* քանի՞ անգամ animation-ն կատարվի */
+    animation-iteration-count: infinite;
+    /* animation-direction: normal; */               /* animation-ն կկատարվի  այնպես, ինչպես սել ենք,,,  */
+    /* animation-direction: reverse; */              /* animation-ն կկատարվի  հակառակ,,,                 */
+    animation-direction: alternate;                  /* animation-ն կկատարվի մի հատ նորմալ, մի հատ հակառակ,,,  */
+    /* animation-direction: alternate-reverse; */    /* animation-ն կկատարվի մի հատ հակառակ, մի հատ նորմալ,,,  */
+    animation-fill-mode: forwards;
+    /* animation: example 5s linear 2s infinite alternate; */  /* կարճ գրելաձև  */
+}
+
+/* @keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+} */
+
+/* @keyframes example {
+    0% {background-color: red;}
+    20% {background-color: orange;}
+    40% {background-color: yellow;}
+    60% {background-color: green;}
+    80% {background-color: cyan;}
+    90% {background-color: blue;}
+    100% { background-color: blueviolet;}
+} */
+
+@keyframes example {
+    0%   {background-color:red; left:1000px; /*top:0px;*/}
+    25%  {background-color:yellow; left:1000px; /*top:0px;*/}
+    50%  {background-color:blue; left:1000px; /*top:200px;*/}
+    75%  {background-color:green; left:0px; /*top:200px;*/}
+    100% {background-color:red; left:0px; /*top:0px;*/}
+  }
+
+/*#div_1 {animation-timing-function: linear;}*/                   /* animation-ն մէ հանգի կերթա,,,                */
+/*#div_2 {animation-timing-function: ease;}  */                   /* animation-ն արագ կսկսվի, դանդաղ կվերջանա,,,  */
+/*#div_3 {animation-timing-function: ease-in;} */                 /* animation-ն դանդաղ կսկսվի, արագ կվերջանա,,,  */
+/*#div_4 {animation-timing-function: ease-out;}  */               /* animation-ն դանդաղ վերջ,,,                   */
+/*#div_5 {animation-timing-function: ease-in-out;} */             /* animation-ն դանդաղ սկիզբ,,,                  */
+/*#div_6 {animation-timing-function: cubic-bezier(0,25,50,100);}*/   /* թույլ է տալիս մեր պարամետրերը տանք,,,     */
