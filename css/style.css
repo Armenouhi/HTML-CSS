@@ -1,0 +1,134 @@
+/**
+* col-lg, col-md
+*/
+* {
+    margin: 0%;
+    padding: 0%;
+}
+#navbarNav a{
+    text-decoration: none;
+}
+#img_1 {
+    width: auto;
+    height: 35px;
+    margin-left: 20%;
+}
+.img_2 {
+    width: auto;
+    height: 50px;
+}
+.navbar {
+    height: 70px;
+}
+#button {
+    width: 200px;
+    height: 40px;
+    background-color: #dba541 ;
+    border-radius: 20px;
+    color: #fdd57e;
+}
+.text {
+    position: absolute;
+    padding: 10px;
+    bottom: 45%;
+    left: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
+}
+
+.page-header-top-nav .search-form, .site-header .search-form {
+    background: #fff;
+    padding: 2px;
+    border-radius: 28px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+.before::before {
+    content: '';
+    width: 30px;
+    border-top: solid 3px #abb6a5;
+    position: absolute;
+    left: 48%;
+    z-index: 1;
+}
+.after_h5::before {
+    content: '';
+    width: 70px;
+    border-top: solid 2px #283325;
+    position: absolute;
+    left: 35px;
+    z-index: 1;
+}
+.after_h5::after {
+    content: '';
+    width: 100px;
+    border-top: solid 2px #7a9b70;
+    position: absolute;
+    z-index: 1;
+    right: 20px;
+}
+ input[type=search] {
+     width: 500px;
+    font-family: inherit;
+    outline: 0;
+    border: 0;
+    padding: 5px 1rem;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    -webkit-appearance: textfield;
+    line-height: normal;
+    font-size: 100%;
+    margin: 0;
+    vertical-align: baseline;
+}
+#parentBeApart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    margin-left: -5px;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+ i {
+    padding: 6px;
+    box-shadow: none;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.fa-periscope {
+    color: #5b9c36;
+}
+.withStar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+ul li {
+    list-style: none;
+}
+ul li a {
+    color: white;
+    text-decoration: underline;
+}
+ul li a:hover {
+    color: white;
+    text-decoration: underline;
+}
+.circle {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    color: black;
+}
